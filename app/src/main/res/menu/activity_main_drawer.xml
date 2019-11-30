@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_manual"
+            android:icon="@drawable/ic_menu_manual"
+            android:title="@string/menu_manual" />
+        <item
+            android:id="@+id/nav_decks"
+            android:icon="@drawable/ic_decks"
+            android:title="@string/menu_decks" />
+
+
+
+        <item
+            android:id="@+id/nav_cards"
+            android:icon="@drawable/ic_star_cards"
+            android:title="@string/menu_cards" />
+        <item
+            android:id="@+id/nav_gold2"
+            android:icon="@drawable/ic_action_name"
+            android:title="@string/menu_gold2" />
+        <item
+            android:id="@+id/nav_gold3"
+            android:icon="@drawable/ic_star_border"
+            android:title="@string/menu_gold3" />
+        <item
+            android:id="@+id/nav_gold4"
+            android:icon="@drawable/ic_star_border"
+            android:title="@string/menu_gold4" />
+        <item
+            android:id="@+id/nav_gold5"
+            android:icon="@drawable/ic_star_border"
+            android:title="@string/menu_gold5" />
+        <item
+            android:id="@+id/nav_gold6"
+            android:icon="@drawable/ic_star_border"
+            android:title="@string/menu_gold6" />
+
+    </group>
+
+    <item android:title="Coming soon...">
+        <menu>
+            <item
+                android:id="@+id/nav_randomizer"
+                android:icon="@drawable/ic_elena"
+                android:title="@string/menu_randomizer" />
+            <item
+                android:id="@+id/nav_counter"
+                android:icon="@drawable/ic_fred"
+                android:title="@string/menu_counter" />
+        </menu>
+    </item>
+
+</menu>

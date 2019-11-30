@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitXY"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_gold5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />intLayout>
+
+
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="match_parent"
+            android:layout_height="590dp"
+            android:layout_weight="1"
+            android:cropToPadding="false"
+            android:padding="@dimen/activity_horizontal_margin"
+            app:srcCompat="@drawable/duke" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="match_parent"
+            android:layout_height="590dp"
+            android:layout_weight="1"
+            android:cropToPadding="false"
+            android:padding="@dimen/activity_horizontal_margin"
+            app:srcCompat="@drawable/minion" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="match_parent"
+            android:layout_height="590dp"
+            android:layout_weight="1"
+            android:cropToPadding="false"
+            android:padding="@dimen/activity_horizontal_margin"
+            app:srcCompat="@drawable/saboteur" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="match_parent"
+            android:layout_height="590dp"
+            android:layout_weight="1"
+            android:cropToPadding="false"
+            android:padding="@dimen/activity_horizontal_margin"
+            app:srcCompat="@drawable/tradingpost" />
+
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="match_parent"
+            android:layout_height="590dp"
+            android:layout_weight="1"
+            android:cropToPadding="false"
+            android:padding="@dimen/activity_horizontal_margin"
+            app:srcCompat="@drawable/tribute" />
+
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="match_parent"
+            android:layout_height="590dp"
+            android:layout_weight="1"
+            android:cropToPadding="false"
+            android:padding="@dimen/activity_horizontal_margin"
+            app:srcCompat="@drawable/torturer" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="match_parent"
+            android:layout_height="590dp"
+            android:layout_weight="1"
+            android:cropToPadding="false"
+            android:padding="@dimen/activity_horizontal_margin"
+            app:srcCompat="@drawable/upgrade" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

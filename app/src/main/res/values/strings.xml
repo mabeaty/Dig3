@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Dig2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_manual">Instruction Manual</string>
+    <string name="menu_decks">Recommended Decks</string>
+    <string name="menu_cards">Cards</string>
+    <string name="menu_gold2">Cards that cost 2 Gold</string>
+    <string name="menu_gold3">Cards that cost 3 Gold</string>
+    <string name="menu_gold4">Cards that cost 4 Gold</string>
+    <string name="menu_gold5">Cards that cost 5 Gold</string>
+    <string name="menu_gold6">Cards that cost 6 Gold</string>
+    <string name="menu_randomizer">Deck Randomizer</string>
+    <string name="menu_counter">Victory Point Counter</string>
+</resources>

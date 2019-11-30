@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_slideshow"
+            android:layout_width="152dp"
+            android:layout_height="44dp" />
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="390dp"
+            android:layout_height="83dp"
+            android:lineSpacingExtra="8sp"
+            android:text=" Victory Dance"
+            android:textColor="@color/colorAccent"
+            android:textSize="33dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Bridge"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Duke"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Great Hall"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Harem"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Ironworks"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Masquerade"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Nobles"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Pawn"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Scout"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Upgrade            (Scroll down for more decks)"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/cardbackside" />
+
+        <TextView
+            android:id="@+id/textViewa"
+            android:layout_width="152dp"
+            android:layout_height="44dp" />
+
+
+        <TextView
+            android:id="@+id/textViewaa"
+            android:layout_width="390dp"
+            android:layout_height="83dp"
+            android:lineSpacingExtra="8sp"
+            android:text=" Secret Schemes"
+            android:textColor="@color/colorAccent"
+            android:textSize="33dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/textView10a"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Conspirator"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView14a"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Harem"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView15a"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Ironworks"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView16a"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Pawn"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView17a"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Saboteur"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView18a"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Shanty Town"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView19a"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Steward"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView20a"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Swindler"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView21a"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Trading Post"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView22a"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Tribute           (Scroll down for more decks)"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <ImageView
+            android:id="@+id/imageView3a"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/cardbackside" />
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/text_slideshowb"
+            android:layout_width="152dp"
+            android:layout_height="44dp" />
+
+
+        <TextView
+            android:id="@+id/textView9b"
+            android:layout_width="390dp"
+            android:layout_height="83dp"
+            android:lineSpacingExtra="8sp"
+            android:text=" Best Wishes"
+            android:textColor="@color/colorAccent"
+            android:textSize="33dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/textView10b"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Coppersmith"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView14b"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Courtyard"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView15b"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Masquerade"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView16b"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Scout"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView17b"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Shanty Town"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView18b"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Steward"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView19b"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Torturer"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView20b"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Trading Post"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView21b"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Upgrade"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView22b"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" Wishing Well  "
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <ImageView
+            android:id="@+id/imageView3b"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/cardbackside" />
+
+
+
+    </LinearLayout>
+</ScrollView>
+

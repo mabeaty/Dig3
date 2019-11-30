@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.hfad.dig2.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_manual"
+        android:name="com.hfad.dig2.ui.gallery.GalleryFragment"
+        android:label="@string/menu_manual"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_decks"
+        android:name="com.hfad.dig2.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_decks"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_cards"
+        android:name="com.hfad.dig2.ui.tools.ToolsFragment"
+        android:label="@string/menu_cards"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_gold2"
+        android:name="com.hfad.dig2.ui.gold2.Gold2Fragment"
+        android:label="@string/menu_gold2"
+        tools:layout="@layout/fragment_gold2" />
+
+    <fragment
+        android:id="@+id/nav_gold3"
+        android:name="com.hfad.dig2.ui.gold3.Gold3Fragment"
+        android:label="@string/menu_gold3"
+        tools:layout="@layout/fragment_gold3" />
+
+    <fragment
+        android:id="@+id/nav_gold4"
+        android:name="com.hfad.dig2.ui.gold4.Gold4Fragment"
+        android:label="@string/menu_gold4"
+        tools:layout="@layout/fragment_gold4" />
+
+    <fragment
+        android:id="@+id/nav_gold5"
+        android:name="com.hfad.dig2.ui.gold5.Gold5Fragment"
+        android:label="@string/menu_gold5"
+        tools:layout="@layout/fragment_gold5" />
+
+    <fragment
+        android:id="@+id/nav_gold6"
+        android:name="com.hfad.dig2.ui.gold6.Gold6Fragment"
+        android:label="@string/menu_gold6"
+        tools:layout="@layout/fragment_gold6" />
+
+    <fragment
+        android:id="@+id/nav_randomizer"
+        android:name="com.hfad.dig2.ui.send.SendFragment"
+        android:label="@string/menu_randomizer"
+        tools:layout="@layout/fragment_send" />
+
+    <fragment
+        android:id="@+id/nav_counter"
+        android:name="com.hfad.dig2.ui.share.ShareFragment"
+        android:label="@string/menu_counter"
+        tools:layout="@layout/fragment_share" />
+
+
+</navigation>
