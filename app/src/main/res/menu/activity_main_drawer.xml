@@ -25,7 +25,7 @@
             android:title="@string/menu_cards" />
         <item
             android:id="@+id/nav_gold2"
-            android:icon="@drawable/ic_action_name"
+            android:icon="@drawable/ic_star_border"
             android:title="@string/menu_gold2" />
         <item
             android:id="@+id/nav_gold3"
